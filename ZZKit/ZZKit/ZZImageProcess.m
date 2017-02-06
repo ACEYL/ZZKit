@@ -32,7 +32,7 @@
 
 +(UIImage*)scaleImage:(UIImage *)image multiple:(CGFloat) multiple
 {
-    CGSize size = CGSizeMake(image.size.width * 0.2, image.size.height * 0.2);
+    CGSize size = CGSizeMake(image.size.width * multiple, image.size.height * multiple);
     
     UIGraphicsBeginImageContext(size);
     

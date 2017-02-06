@@ -18,16 +18,14 @@
 		4906D9611CE4482D007514D8 /* check_box_unselect.png in Resources */ = {isa = PBXBuildFile; fileRef = 4906D95F1CE4482D007514D8 /* check_box_unselect.png */; };
 		4930F1551CE95AC200EDDA67 /* VerifyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930F1541CE95AC200EDDA67 /* VerifyClass.m */; };
 		4935425D1CE59E7E00554822 /* migic_z_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4935425C1CE59E7E00554822 /* migic_z_logo.png */; };
-		493542751CE5D43A00554822 /* ZZCarouselControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 493542621CE5D43A00554822 /* ZZCarouselControl.m */; };
-		493542761CE5D43A00554822 /* ZZCheckTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 493542641CE5D43A00554822 /* ZZCheckTools.m */; };
-		493542771CE5D43A00554822 /* ZZDateFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 493542661CE5D43A00554822 /* ZZDateFormat.m */; };
-		493542781CE5D43A00554822 /* ZZDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 493542681CE5D43A00554822 /* ZZDatePickerView.m */; };
-		493542791CE5D43A00554822 /* ZZDiskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4935426B1CE5D43A00554822 /* ZZDiskManager.m */; };
-		4935427A1CE5D43A00554822 /* ZZEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4935426D1CE5D43A00554822 /* ZZEncode.m */; };
-		4935427B1CE5D43A00554822 /* ZZFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4935426F1CE5D43A00554822 /* ZZFunction.m */; };
-		4935427C1CE5D43A00554822 /* ZZImageProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 493542711CE5D43A00554822 /* ZZImageProcess.m */; };
-		4935427D1CE5D43A00554822 /* ZZRadioControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 493542741CE5D43A00554822 /* ZZRadioControl.m */; };
-		49A78FF81CE9A51A000AB91F /* ZZMakeDecide.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A78FF71CE9A51A000AB91F /* ZZMakeDecide.m */; };
+		C9671B491E483203002F679D /* ZZCheckTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C9671B381E483203002F679D /* ZZCheckTools.m */; };
+		C9671B4A1E483203002F679D /* ZZDateFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = C9671B3A1E483203002F679D /* ZZDateFormat.m */; };
+		C9671B4B1E483203002F679D /* ZZDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9671B3C1E483203002F679D /* ZZDatePickerView.m */; };
+		C9671B4C1E483203002F679D /* ZZDiskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C9671B3F1E483203002F679D /* ZZDiskManager.m */; };
+		C9671B4D1E483203002F679D /* ZZEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = C9671B411E483203002F679D /* ZZEncode.m */; };
+		C9671B4E1E483203002F679D /* ZZFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C9671B431E483203002F679D /* ZZFunction.m */; };
+		C9671B4F1E483203002F679D /* ZZImageProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = C9671B451E483203002F679D /* ZZImageProcess.m */; };
+		C9671B501E483203002F679D /* ZZRadioControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C9671B481E483203002F679D /* ZZRadioControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,28 +66,24 @@
 		4930F1531CE95AC200EDDA67 /* VerifyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerifyClass.h; sourceTree = "<group>"; };
 		4930F1541CE95AC200EDDA67 /* VerifyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerifyClass.m; sourceTree = "<group>"; };
 		4935425C1CE59E7E00554822 /* migic_z_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = migic_z_logo.png; sourceTree = "<group>"; };
-		493542611CE5D43A00554822 /* ZZCarouselControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZCarouselControl.h; sourceTree = "<group>"; };
-		493542621CE5D43A00554822 /* ZZCarouselControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZCarouselControl.m; sourceTree = "<group>"; };
-		493542631CE5D43A00554822 /* ZZCheckTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZCheckTools.h; sourceTree = "<group>"; };
-		493542641CE5D43A00554822 /* ZZCheckTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZCheckTools.m; sourceTree = "<group>"; };
-		493542651CE5D43A00554822 /* ZZDateFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZDateFormat.h; sourceTree = "<group>"; };
-		493542661CE5D43A00554822 /* ZZDateFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZDateFormat.m; sourceTree = "<group>"; };
-		493542671CE5D43A00554822 /* ZZDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZDatePickerView.h; sourceTree = "<group>"; };
-		493542681CE5D43A00554822 /* ZZDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZDatePickerView.m; sourceTree = "<group>"; };
-		493542691CE5D43A00554822 /* ZZDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZDefine.h; sourceTree = "<group>"; };
-		4935426A1CE5D43A00554822 /* ZZDiskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZDiskManager.h; sourceTree = "<group>"; };
-		4935426B1CE5D43A00554822 /* ZZDiskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZDiskManager.m; sourceTree = "<group>"; };
-		4935426C1CE5D43A00554822 /* ZZEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZEncode.h; sourceTree = "<group>"; };
-		4935426D1CE5D43A00554822 /* ZZEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZEncode.m; sourceTree = "<group>"; };
-		4935426E1CE5D43A00554822 /* ZZFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZFunction.h; sourceTree = "<group>"; };
-		4935426F1CE5D43A00554822 /* ZZFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZFunction.m; sourceTree = "<group>"; };
-		493542701CE5D43A00554822 /* ZZImageProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZImageProcess.h; sourceTree = "<group>"; };
-		493542711CE5D43A00554822 /* ZZImageProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZImageProcess.m; sourceTree = "<group>"; };
-		493542721CE5D43A00554822 /* ZZKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZKit.h; sourceTree = "<group>"; };
-		493542731CE5D43A00554822 /* ZZRadioControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRadioControl.h; sourceTree = "<group>"; };
-		493542741CE5D43A00554822 /* ZZRadioControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRadioControl.m; sourceTree = "<group>"; };
-		49A78FF61CE9A51A000AB91F /* ZZMakeDecide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZMakeDecide.h; sourceTree = "<group>"; };
-		49A78FF71CE9A51A000AB91F /* ZZMakeDecide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZMakeDecide.m; sourceTree = "<group>"; };
+		C9671B371E483203002F679D /* ZZCheckTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZCheckTools.h; sourceTree = "<group>"; };
+		C9671B381E483203002F679D /* ZZCheckTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZCheckTools.m; sourceTree = "<group>"; };
+		C9671B391E483203002F679D /* ZZDateFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZDateFormat.h; sourceTree = "<group>"; };
+		C9671B3A1E483203002F679D /* ZZDateFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZDateFormat.m; sourceTree = "<group>"; };
+		C9671B3B1E483203002F679D /* ZZDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZDatePickerView.h; sourceTree = "<group>"; };
+		C9671B3C1E483203002F679D /* ZZDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZDatePickerView.m; sourceTree = "<group>"; };
+		C9671B3D1E483203002F679D /* ZZDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZDefine.h; sourceTree = "<group>"; };
+		C9671B3E1E483203002F679D /* ZZDiskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZDiskManager.h; sourceTree = "<group>"; };
+		C9671B3F1E483203002F679D /* ZZDiskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZDiskManager.m; sourceTree = "<group>"; };
+		C9671B401E483203002F679D /* ZZEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZEncode.h; sourceTree = "<group>"; };
+		C9671B411E483203002F679D /* ZZEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZEncode.m; sourceTree = "<group>"; };
+		C9671B421E483203002F679D /* ZZFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZFunction.h; sourceTree = "<group>"; };
+		C9671B431E483203002F679D /* ZZFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZFunction.m; sourceTree = "<group>"; };
+		C9671B441E483203002F679D /* ZZImageProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZImageProcess.h; sourceTree = "<group>"; };
+		C9671B451E483203002F679D /* ZZImageProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZImageProcess.m; sourceTree = "<group>"; };
+		C9671B461E483203002F679D /* ZZKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZKit.h; sourceTree = "<group>"; };
+		C9671B471E483203002F679D /* ZZRadioControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRadioControl.h; sourceTree = "<group>"; };
+		C9671B481E483203002F679D /* ZZRadioControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRadioControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +134,7 @@
 		4906D91A1CE40F59007514D8 /* ZZKit */ = {
 			isa = PBXGroup;
 			children = (
-				493542601CE5D43A00554822 /* ZZKit */,
+				C9671B361E483203002F679D /* ZZKit */,
 				4935425C1CE59E7E00554822 /* migic_z_logo.png */,
 				4906D95E1CE4482D007514D8 /* check_box_select.png */,
 				4906D95F1CE4482D007514D8 /* check_box_unselect.png */,
@@ -184,31 +178,27 @@
 			path = ZZKitUITests;
 			sourceTree = "<group>";
 		};
-		493542601CE5D43A00554822 /* ZZKit */ = {
+		C9671B361E483203002F679D /* ZZKit */ = {
 			isa = PBXGroup;
 			children = (
-				49A78FF61CE9A51A000AB91F /* ZZMakeDecide.h */,
-				49A78FF71CE9A51A000AB91F /* ZZMakeDecide.m */,
-				493542721CE5D43A00554822 /* ZZKit.h */,
-				493542611CE5D43A00554822 /* ZZCarouselControl.h */,
-				493542621CE5D43A00554822 /* ZZCarouselControl.m */,
-				493542631CE5D43A00554822 /* ZZCheckTools.h */,
-				493542641CE5D43A00554822 /* ZZCheckTools.m */,
-				493542651CE5D43A00554822 /* ZZDateFormat.h */,
-				493542661CE5D43A00554822 /* ZZDateFormat.m */,
-				493542671CE5D43A00554822 /* ZZDatePickerView.h */,
-				493542681CE5D43A00554822 /* ZZDatePickerView.m */,
-				493542691CE5D43A00554822 /* ZZDefine.h */,
-				4935426A1CE5D43A00554822 /* ZZDiskManager.h */,
-				4935426B1CE5D43A00554822 /* ZZDiskManager.m */,
-				4935426C1CE5D43A00554822 /* ZZEncode.h */,
-				4935426D1CE5D43A00554822 /* ZZEncode.m */,
-				4935426E1CE5D43A00554822 /* ZZFunction.h */,
-				4935426F1CE5D43A00554822 /* ZZFunction.m */,
-				493542701CE5D43A00554822 /* ZZImageProcess.h */,
-				493542711CE5D43A00554822 /* ZZImageProcess.m */,
-				493542731CE5D43A00554822 /* ZZRadioControl.h */,
-				493542741CE5D43A00554822 /* ZZRadioControl.m */,
+				C9671B371E483203002F679D /* ZZCheckTools.h */,
+				C9671B381E483203002F679D /* ZZCheckTools.m */,
+				C9671B391E483203002F679D /* ZZDateFormat.h */,
+				C9671B3A1E483203002F679D /* ZZDateFormat.m */,
+				C9671B3B1E483203002F679D /* ZZDatePickerView.h */,
+				C9671B3C1E483203002F679D /* ZZDatePickerView.m */,
+				C9671B3D1E483203002F679D /* ZZDefine.h */,
+				C9671B3E1E483203002F679D /* ZZDiskManager.h */,
+				C9671B3F1E483203002F679D /* ZZDiskManager.m */,
+				C9671B401E483203002F679D /* ZZEncode.h */,
+				C9671B411E483203002F679D /* ZZEncode.m */,
+				C9671B421E483203002F679D /* ZZFunction.h */,
+				C9671B431E483203002F679D /* ZZFunction.m */,
+				C9671B441E483203002F679D /* ZZImageProcess.h */,
+				C9671B451E483203002F679D /* ZZImageProcess.m */,
+				C9671B461E483203002F679D /* ZZKit.h */,
+				C9671B471E483203002F679D /* ZZRadioControl.h */,
+				C9671B481E483203002F679D /* ZZRadioControl.m */,
 			);
 			path = ZZKit;
 			sourceTree = "<group>";
@@ -346,19 +336,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4906D9231CE40F59007514D8 /* ViewController.m in Sources */,
-				493542751CE5D43A00554822 /* ZZCarouselControl.m in Sources */,
 				4906D9201CE40F59007514D8 /* AppDelegate.m in Sources */,
 				4930F1551CE95AC200EDDA67 /* VerifyClass.m in Sources */,
-				4935427D1CE5D43A00554822 /* ZZRadioControl.m in Sources */,
+				C9671B501E483203002F679D /* ZZRadioControl.m in Sources */,
 				4906D91D1CE40F59007514D8 /* main.m in Sources */,
-				493542791CE5D43A00554822 /* ZZDiskManager.m in Sources */,
-				4935427A1CE5D43A00554822 /* ZZEncode.m in Sources */,
-				4935427C1CE5D43A00554822 /* ZZImageProcess.m in Sources */,
-				49A78FF81CE9A51A000AB91F /* ZZMakeDecide.m in Sources */,
-				493542771CE5D43A00554822 /* ZZDateFormat.m in Sources */,
-				4935427B1CE5D43A00554822 /* ZZFunction.m in Sources */,
-				493542761CE5D43A00554822 /* ZZCheckTools.m in Sources */,
-				493542781CE5D43A00554822 /* ZZDatePickerView.m in Sources */,
+				C9671B4C1E483203002F679D /* ZZDiskManager.m in Sources */,
+				C9671B4D1E483203002F679D /* ZZEncode.m in Sources */,
+				C9671B4F1E483203002F679D /* ZZImageProcess.m in Sources */,
+				C9671B4A1E483203002F679D /* ZZDateFormat.m in Sources */,
+				C9671B4E1E483203002F679D /* ZZFunction.m in Sources */,
+				C9671B491E483203002F679D /* ZZCheckTools.m in Sources */,
+				C9671B4B1E483203002F679D /* ZZDatePickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

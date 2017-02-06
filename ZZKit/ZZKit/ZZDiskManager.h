@@ -2,52 +2,118 @@
 //  ZZDiskManager.h
 //  ZZKit
 //
-//  Created by 袁亮 on 16/5/13.
-//  Copyright © 2016年 Migic_Z. All rights reserved.
+//  Created by devz on 16/5/13.
+//  Copyright © 2016年 devz. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
+static NSString *documents = @"Documents";
+static NSString *library = @"Library";
+static NSString *temp = @"tmp";
+
 typedef NS_ENUM(NSInteger, ZZDiskMode){
-    ///  设置沙盒中 Documents 路径
+    ///  The main path of the sandbox.
+    ZZDiskModeHome=0,
+    ///  The documents path of the sandbox.
     ZZDiskModeDocuments,
-    
-    ///  设置沙盒中 Library   路径
+    ///  The library path of the sandbox.
     ZZDiskModeLibrary,
-    
-    ///  设置沙盒中 Temp      路径
-    ZZDiskModeTemp
+    ///  The temp path of the sandbox.
+    ZZDiskModeTmp
 };
 
 @interface ZZDiskManager : NSObject
 
 /**
- *      获取沙盒 Documents 路径
- */
-+(NSString *) fetchDocumentsPath;
-/**
- *      获取沙盒 Library 路径
- */
-+(NSString *) fetchLibraryPath;
-/**
- *      获取沙盒 temp 路径
- */
-+(NSString *) fetchTempPath;
+ This method is used to obtain the sand box of the main path.
 
-/**
- *      保存文件到某路径中
+ @return home path
  */
-+(void) saveDate:(NSData *)data toPath:(NSString *)path;
++ (NSString *)fetchHomePath;
 /**
- *      读取某路径中文件
- */
-+(NSData *) readDateFromPath:(NSString *)path;
+ This method is used to obtain the sand box of the documents path.
 
-/**
- *      在Documents文件夹中创建文件夹
- *      @mode 创建文件夹在哪个目录
- *      @floderName 创建文件夹的文件名称
+ @return documents path
  */
-+(BOOL)createFloderInSandBox:(ZZDiskMode)mode floderName:(NSString *)floderName;
++ (NSString *)fetchDocumentsPath;
+/**
+ This method is used to obtain the sand box of the library path.
+
+ @return library path
+ */
++ (NSString *)fetchLibraryPath;
+/**
+ This method is used to obtain the sand box of the temp path.
+
+ @return temp path
+ */
++ (NSString *)fetchTempPath;
+/**
+ By specifying the enumerated types for the specified path.
+ 
+ @param mode path mode
+ @return path
+ */
++ (NSString *)fetchPathWithMode:(ZZDiskMode)mode;
+/**
+ This method is used to save a file to the specified path.
+
+ @param data file data
+ @param mode path mode
+ @param fileName file name
+ */
++ (void)saveDate:(NSData *)data withPathMode:(ZZDiskMode)mode withFileName:(NSString *)fileName;
+/**
+ This method is used to create a file or folder in the specified directory.
+
+ @param mode path mode
+ @param floderName floder name
+ @return is or not to create
+ */
++ (BOOL)createFloderInSandBox:(ZZDiskMode)mode floderName:(NSString *)floderName;
+/**
+ This method is used to obtain all the file path.
+ 
+ @param mode Through the mode to determine the directory.
+ @return All file
+ */
++ (NSArray *)fetchAllFileOfPathMode:(ZZDiskMode)mode;
+/**
+ This method is used to delete the specified file directory to the specified file name.
+
+ @param mode path mode
+ @param fileName file name
+ @return is or not to delete
+ */
++ (BOOL)removeItemWithPathMode:(ZZDiskMode)mode fileName:(NSString *)fileName;
+/**
+ This method is used to delete the specified directory of all items.
+
+ @param mode path mode
+ @return is or not delete all.
+ */
++ (BOOL)removeAllItemOfPathMode:(ZZDiskMode)mode;
+/**
+ This method is used to delete the specified directory of all items,
+ Callback block returns the deleted files and delete the parameters of success
+ 
+ @param mode path mode
+ @param delete success block.
+ */
++ (void)removeAllItemOfPathMode:(ZZDiskMode)mode clearBlock:(void (^)(NSArray *items, BOOL clear))block;
+/**
+ This method is used to remove all the documents to three directories under the sandbox.
+
+ @return is or not delete.
+ */
++ (BOOL)removeSandBoxToEmpty;
+/**
+ This method is used to remove all the documents to three directories under the sandbox,
+ Contains the Documents folder, Library folder and TMP folder all the content to empty.
+
+ @param delete success block.
+ */
++ (void)removeSandBoxClearBlock:(void (^)(BOOL clear))block;
 
 @end

@@ -10,12 +10,30 @@
 
 @implementation ZZDateFormat
 
-+(NSString *)fetchDate:(NSString *)date format:(NSString *) format
++(NSString *)fetch10Date:(NSString *)date format:(NSString *) format
 {
     
     NSString *timeStr = date;
     
     NSTimeInterval timeInterval = [timeStr doubleValue];
+    
+    NSDate *pubDate = [NSDate dateWithTimeIntervalSince1970:timeInterval];
+    
+    NSDateFormatter *resultFormatter=[[NSDateFormatter alloc]init];
+    
+    [resultFormatter setDateFormat:format];
+    
+    NSString *time = [resultFormatter stringFromDate:pubDate];
+    
+    return time;
+}
+
++(NSString *)fetch13Date:(NSString *)date format:(NSString *) format
+{
+    
+    NSString *timeStr = date;
+    
+    NSTimeInterval timeInterval = [timeStr doubleValue] / 1000;
     
     NSDate *pubDate = [NSDate dateWithTimeIntervalSince1970:timeInterval];
     
@@ -70,7 +88,6 @@
 +(NSString *) fetchDifferenceValue:(NSString *)afterDate beforeDate:(NSString *)beforeDate
 {
     long dd = (long)[afterDate intValue] - (long)[beforeDate intValue];
-    NSLog(@"123456 _+_+_+   %ld",dd);
     NSString *timeString=@"";
     if (dd/3600<1){
         

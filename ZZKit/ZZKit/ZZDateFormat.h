@@ -27,14 +27,24 @@
 +(NSString *) fetchNowDateFormat:(NSString *) format;
 
 /**
- *  格式化Unix时间戳
+ *  格式化Unix时间戳,普通服务器返回10位字符串忽略毫秒
  *
  *  @param date   Unix字符串
  *  @param format 设置时间返回值格式 例如：yyyy-MM-dd -> 2016-05-12
  *
  *  @return 格式化后的Unix时间字符串
  */
-+(NSString *) fetchDate:(NSString *)date format:(NSString *) format;
++(NSString *) fetch10Date:(NSString *)date format:(NSString *) format;
+
+/**
+ *  格式化Unix时间戳,JAVA服务器默认返回毫秒13位字符串
+ *
+ *  @param date   Unix字符串
+ *  @param format 设置时间返回值格式 例如：yyyy-MM-dd -> 2016-05-12
+ *
+ *  @return 格式化后的Unix时间字符串
+ */
++(NSString *)fetch13Date:(NSString *)date format:(NSString *) format;
 
 /**
  *  将时间字符串形式为2016-05-12 08:00时间字符串格式成Unix时间戳字符串
